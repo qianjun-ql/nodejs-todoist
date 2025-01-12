@@ -7,6 +7,6 @@ const VerifyTokenSchema = new mongoose.Schema({
 });
 
 export const VerifyTokenModel = mongoose.model(
-  "VerificationToken",
+  "VerifyToken",
   VerifyTokenSchema
 );
